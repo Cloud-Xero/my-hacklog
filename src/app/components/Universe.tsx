@@ -1,14 +1,21 @@
 "use client";
 
-import * as THREE from "three";
-import { useMemo } from "react";
+import { ReactNebula } from "@flodlc/nebula";
 
 export const Universe = () => {
-  const points = useMemo(
-    () =>
-      new THREE.EllipseCurve(0, 0, 3, 1.15, 0, 2 * Math.PI, false, 0).getPoints(
-        100
-      ),
-    []
+  return (
+    <ReactNebula
+      config={{
+        starsCount: 400,
+        cometFrequence: 10,
+        starsRotationSpeed: 5,
+        nebulasIntensity: 5,
+        bgColor: "rgb(8,8,8)",
+        sunScale: 0,
+        planetsScale: 0,
+        solarSystemOrbite: 0,
+        solarSystemSpeedOrbit: 0,
+      }}
+    />
   );
 };
