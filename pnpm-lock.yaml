@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@flodlc/nebula':
+    specifier: ^1.0.56
+    version: 1.0.56
   '@react-three/drei':
     specifier: ^9.80.0
     version: 9.80.0(@react-three/fiber@8.13.6)(@types/three@0.154.0)(react-dom@18.2.0)(react@18.2.0)(three@0.155.0)
@@ -141,6 +144,10 @@ packages:
   /@eslint/js@8.46.0:
     resolution: {integrity: sha512-a8TLtmPi8xzPkCbp/OGFUo5yhRkHM2Ko9kOWP4znJr0WAhWyThaw3PnwX4vOTWOAMsV2uRt32PPDcEz63esSaA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: false
+
+  /@flodlc/nebula@1.0.56:
+    resolution: {integrity: sha512-D4qKtMFQ8StBmvQmDva3riXDIYHQP/H3pQKZP513QmpigA1IC5EFmCgVRSPHXwa9Oa1WnFfNdrEy0GtzD3OAJQ==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.10:
