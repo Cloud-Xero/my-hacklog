@@ -2,6 +2,10 @@
   "name": "my-hacklog",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "use pnpm please",
+    "yarn": "use pnpm please"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
