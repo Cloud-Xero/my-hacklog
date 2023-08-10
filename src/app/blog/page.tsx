@@ -2,9 +2,9 @@
 
 import { Canvas } from "@react-three/fiber";
 import Image from "next/image";
-import { Box } from "../components/Box";
-import { StarScene } from "../components/StarScene";
-import { Universe } from "../components/Universe";
+import { Box } from "../../components/Box";
+import { StarScene } from "../../components/StarScene";
+import { Universe } from "../../components/Universe";
 
 export default function Home() {
   return (
